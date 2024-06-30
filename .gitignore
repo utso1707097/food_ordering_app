@@ -1,0 +1,130 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+logs/
+*.log.*
+*.log?.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables file
+.env
+.env.local
+.env.*.local
+
+# Frontend build
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.next/
+frontend/out/
+frontend/.cache/
+frontend/.nuxt/
+frontend/.parcel-cache/
+frontend/.vuepress/dist/
+
+# Backend build
+backend/node_modules/
+backend/build/
+backend/dist/
+backend/.env
+backend/.cache/
+
+# Vite
+frontend/.vite/
+frontend/vite-error.log
+
+# Lock files
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+backend/package-lock.json
+backend/yarn.lock
+backend/pnpm-lock.yaml
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore miscellaneous binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.pyc
+*.pyo
+*.pyd
+
+# Optional npm cache directory
+frontend/.npm/
+backend/.npm/
+
+# Coverage directory used by tools like istanbul
+frontend/coverage/
+backend/coverage/
+
+# SASS cache
+frontend/.sass-cache/
+backend/.sass-cache/
+
+# Dependency directories
+frontend/.pnp/
+backend/.pnp/
+
+# Parcel v2 cache
+frontend/.parcel-cache/
+backend/.parcel-cache/
+
+# Storybook
+frontend/.storybook/
+frontend/storybook-static/
+
+# Cypress
+frontend/cypress/screenshots/
+frontend/cypress/videos/
+
+# ESLint cache
+frontend/.eslintcache
+backend/.eslintcache
+
+# Stylelint cache
+frontend/.stylelintcache
+
+# Optional eslint config
+frontend/.eslintrc.js
+frontend/.eslintrc.json
+frontend/.eslintrc.yaml
+frontend/.eslintrc.yml
+backend/.eslintrc.js
+backend/.eslintrc.json
+backend/.eslintrc.yaml
+backend/.eslintrc.yml
+
+# Prettier config
+frontend/.prettierrc
+frontend/.prettierrc.js
+frontend/.prettierrc.json
+frontend/.prettierrc.toml
+frontend/.prettierrc.yml
+frontend/.prettierrc.yaml
+backend/.prettierrc
+backend/.prettierrc.js
+backend/.prettierrc.json
+backend/.prettierrc.toml
+backend/.prettierrc.yml
+backend/.prettierrc.yaml
